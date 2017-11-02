@@ -1,0 +1,42 @@
+p {
+  padding: 0.5rem;
+}
+h1, h2, h3 {
+  margin: 0rem;
+}
+h1 {
+  font-weight: 400;
+  margin-top: -1rem;
+}
+h1, h2, a, b {
+  font-weight: 800;
+}
+h3:first-child {
+  padding-top: 0;
+}
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Open Sans', sans-serif;
+}
+/* Font sizes */
+h1 {
+  font-size: 6rem;
+}
+h2 {
+  font-size: 3rem;
+}
+h3 {
+  font-size: 1.8rem;
+}
+p, ul li {
+  font-size: 20px;
+  line-height: 26px;
+}
+/* Layout */
+.header h1, .header h2 {
+    padding: 2rem 1rem;
+}
+.content {
+    padding: 0 1rem 2rem;
+}
