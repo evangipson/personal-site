@@ -63,6 +63,16 @@ var possibleColorCombos = [
     "secondary": "#FFE272",
     "tertiary": "#35B2A2"
   },
+  {
+    "primary": "#FFE272",
+    "secondary": "#35B2A2",
+    "tertiary": "#FF59F9"
+  },
+  {
+    "primary": "#35B2A2",
+    "secondary": "#FF59F9",
+    "tertiary": "#FFE272"
+  },
 ];
 
 document.addEventListener("DOMContentLoaded", function(e) {
