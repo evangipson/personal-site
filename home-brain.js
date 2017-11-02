@@ -20,11 +20,12 @@ function paintDOM() {
     // Heading 1
     header.style.background = selectedColorCombo.primary;
     header.style.color = selectedColorCombo.tertiary;
-    header.style.textShadow = "3px 6px " + selectedColorCombo.secondary;
+    header.style.textShadow = "4px 8px " + selectedColorCombo.secondary;
+    header.style.boxShadow = "0 -2rem 0 -1rem " + selectedColorCombo.secondary;
     // Heading 2
     subheader.style.background = selectedColorCombo.secondary;
-    subheader.style.color = selectedColorCombo.primary;
-    subheader.style.textShadow = "2px 4px " + selectedColorCombo.tertiary;
+    subheader.style.color = selectedColorCombo.tertiary;
+    subheader.style.textShadow = "2px 4px " + selectedColorCombo.primary;
     // All Heading 3s
     var allH3s = Array.prototype.slice.call(document.getElementsByTagName("h3"));
     for(var h3Index = 0; h3Index < allH3s.length; h3Index++) {
@@ -54,24 +55,19 @@ var possibleGreetings = [
  * primary, secondary, tertiary/textColor. */
 var possibleColorCombos = [
   {
-    "primary": "#333333",
-    "secondary": "#7F7F7F",
-    "tertiary": "#EEEEEE"
-  },
-  {
-    "primary": "#FF59F9",
-    "secondary": "#FFE272",
-    "tertiary": "#35B2A2"
-  },
-  {
-    "primary": "#FFE272",
-    "secondary": "#35B2A2",
-    "tertiary": "#FF59F9"
-  },
-  {
     "primary": "#35B2A2",
     "secondary": "#FF59F9",
     "tertiary": "#FFE272"
+  },
+  {
+    "primary": "#E2A9CE",
+    "secondary": "#597AB3",
+    "tertiary": "#FDF4C2"
+  },
+  {
+    "primary": "#6A2492",
+    "secondary": "#078D92",
+    "tertiary": "#DDCAF5"
   },
 ];
 
