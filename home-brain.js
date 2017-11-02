@@ -20,7 +20,7 @@ function paintDOM() {
     // Heading 1
     header.style.background = selectedColorCombo.primary;
     header.style.color = selectedColorCombo.tertiary;
-    header.style.textShadow = "2px 4px " + selectedColorCombo.secondary;
+    header.style.textShadow = "3px 6px " + selectedColorCombo.secondary;
     // Heading 2
     subheader.style.background = selectedColorCombo.secondary;
     subheader.style.color = selectedColorCombo.primary;
