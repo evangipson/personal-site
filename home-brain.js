@@ -20,11 +20,10 @@ function paintDOM() {
     // Heading 1
     header.style.background = selectedColorCombo.primary;
     header.style.color = selectedColorCombo.tertiary;
-    header.style.textShadow = "4px 8px " + selectedColorCombo.secondary;
+    header.style.textShadow = "5px 10px " + selectedColorCombo.secondary;
     // Heading 2
-    subheader.style.background = selectedColorCombo.secondary;
-    subheader.style.color = selectedColorCombo.tertiary;
-    subheader.style.textShadow = "2px 4px " + selectedColorCombo.primary;
+    subheader.style.color = selectedColorCombo.primary;
+    subheader.style.textShadow = "3px 6px " + selectedColorCombo.secondary;
     // All Heading 3s
     var allH3s = Array.prototype.slice.call(document.getElementsByTagName("h3"));
     for(var h3Index = 0; h3Index < allH3s.length; h3Index++) {
