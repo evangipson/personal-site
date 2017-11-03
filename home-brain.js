@@ -34,7 +34,7 @@ function paintDOM() {
     var allLinks = Array.prototype.slice.call(document.getElementsByTagName("a"));
     for(var linkIndex = 0; linkIndex < allLinks.length; linkIndex++) {
         allLinks[linkIndex].style.color = selectedColorCombo.primary;
-        allLinks[linkIndex].style.textShadow = "2px 3px " + selectedColorCombo.secondary;
+        allLinks[linkIndex].style.textShadow = "1px 2px " + selectedColorCombo.secondary;
     }
 }
 
@@ -47,7 +47,7 @@ var possibleGreetings = [
   "RIP Chuck Schuldiner",
   "hold x to jump higher",
   "an internet explorer",
-  "big gulps, huh?"
+  "big gulps, huh?",
 ];
 /* color combos should be comprised of
  * primary, secondary, tertiary/textColor. */
