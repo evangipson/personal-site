@@ -23,7 +23,7 @@ function paintDOM() {
     header.style.textShadow = "5px 9px " + selectedColorCombo.secondary;
     // Heading 2
     subheader.style.color = selectedColorCombo.primary;
-    subheader.style.textShadow = "3px 6px " + selectedColorCombo.secondary;
+    subheader.style.textShadow = "3px 5px " + selectedColorCombo.secondary;
     // All Heading 3s
     var allH3s = Array.prototype.slice.call(document.getElementsByTagName("h3"));
     for(var h3Index = 0; h3Index < allH3s.length; h3Index++) {
