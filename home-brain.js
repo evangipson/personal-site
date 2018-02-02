@@ -34,7 +34,7 @@ function paintDOM() {
     var allLinks = Array.prototype.slice.call(document.getElementsByTagName("a"));
     for(var linkIndex = 0; linkIndex < allLinks.length; linkIndex++) {
         allLinks[linkIndex].style.color = selectedColorCombo.primary;
-        allLinks[linkIndex].style.textShadow = "2px 2px " + selectedColorCombo.secondary;
+        allLinks[linkIndex].style.textShadow = "1px 1px " + selectedColorCombo.secondary;
     }
 }
 
