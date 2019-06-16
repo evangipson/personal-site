@@ -53,6 +53,12 @@ h3:first-child {
     text-align: center;
     margin: 0 auto;
 }
+.smaller-copy {
+    font-size: 0.9rem;
+    margin-bottom: 1.5rem;
+    padding-top: 0;
+    margin-top: 0;
+}
 /* Desktop styles */
 @media screen and (min-width: 768px) {
     .content {
