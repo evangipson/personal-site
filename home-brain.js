@@ -48,6 +48,7 @@ var possibleGreetings = [
   "hold x to jump higher",
   "an internet explorer",
   "big gulps, huh?",
+  "now on HTTPS!",
 ];
 /* color combos should be comprised of
  * primary, secondary, tertiary/textColor. */
