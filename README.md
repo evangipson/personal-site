@@ -1,5 +1,5 @@
 # Personal Site
-My personal website containing links pointing to current and previous works, written in JavaScript, CSS, and HTML.
+My personal website containing links pointing to current and previous works, written in CSS and HTML.
 
 # TODO
 Here's some stuff I plan to do. You can get the full list on the [Issues page for personal-site](https://github.com/evangipson/personal-site/issues).
